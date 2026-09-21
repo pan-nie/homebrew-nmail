@@ -2,8 +2,8 @@
 # 发版时由 release.yml homebrew-tap job 渲染版本号与 SHA256 后 create-or-update；
 # 模板结构改动走主仓；brew 下载不打 quarantine 属性 → 无 Gatekeeper 警告。
 cask "nmail" do
-  version "0.4.5"
-  sha256 "ca89ac280b3685c38e9005884f353f3697e1287b96cd142aba581d8a5c9a8754"
+  version "0.4.6"
+  sha256 "b00f6d030395d2bb71b19428cf5b7c25052ac78b35e8850fe3de7ce90b4c9cbc"
 
   url "https://github.com/nathanpenny520/Nmail/releases/download/v#{version}/nmail-macos-arm64.dmg"
   name "Nmail"
